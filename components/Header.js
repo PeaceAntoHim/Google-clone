@@ -1,8 +1,8 @@
-import Image from 'next/image';
+import Avatar from './avatar';
 import { useRef } from 'react';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
-import Avatar from '../components/avatar';
-import HeaderOptions from '../components/HeaderOptions';
+import HeaderOptions from './HeaderOptions';
 import { XIcon, MicrophoneIcon, SearchIcon } from '@heroicons/react/solid';
 
 function Header() {
