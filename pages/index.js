@@ -11,6 +11,7 @@ export default function Home() {
   /* Thsi logic to search */
   const router = useRouter();
   const searchInputRef = useRef(null)
+  
   const search = e => {
     e.preventDefault();
     const term = searchInputRef.current.value;
