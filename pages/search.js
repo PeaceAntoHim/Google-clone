@@ -19,7 +19,7 @@ function Search({ results }) {
             {/* Header */}
             <Header />
             {/* Search Results */}
-            <SearchResults resutls={results} />   
+            <SearchResults results={results} />   
         </div>
     ); 
 }
