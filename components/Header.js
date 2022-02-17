@@ -25,7 +25,7 @@ function Header() {
                 <Image 
                     height={40}
                     width={120}
-                    className="cursor-pointer"
+                    className="cursor-pointer sm:min-h-full"
                     onClick={() => router.push("/")}
                     src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
                 />
